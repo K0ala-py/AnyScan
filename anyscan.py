@@ -10,13 +10,13 @@ from time import sleep
 parser = argparse.ArgumentParser(description="ScanVUN is a beautifull script for the Vulnerability",
 formatter_class = argparse.RawDescriptionHelpFormatter,
 epilog=textwrap.dedent('''Exemption:\n
-scanvul.py -i 127.0.0.1 -wp
+anyscan.py -i 127.0.0.1 -wp
 '''))
 
 
 def help():
     
-    print("\n[bold]scanvul.py [-h] or [--help] to display the help command[bold]")
+    print("\n[bold]anyscan.py [-h] or [--help] to display the help command[bold]")
     os.system("python scanvul -h")
     return ''
 

@@ -10,7 +10,7 @@ from time import sleep
 parser = argparse.ArgumentParser(description="Anyscan is a beautifull script for the Vulnerability",
 formatter_class = argparse.RawDescriptionHelpFormatter,
 epilog=textwrap.dedent('''Exemption:\n
-anyscan.py -i 127.0.0.1 -wp
+anyscan.py -H 127.0.0.1 -wp
 '''))
 
 

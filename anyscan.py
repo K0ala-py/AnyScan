@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import requests
 import socket
 import os
@@ -9,14 +7,13 @@ import textwrap
 from rich import print
 from time import sleep
 
-# Creating an interface
 parser = argparse.ArgumentParser(description="ScanVUN is a beautifull script for the Vulnerability",
 formatter_class = argparse.RawDescriptionHelpFormatter,
 epilog=textwrap.dedent('''Exemption:\n
 scanvul.py -i 127.0.0.1 -wp
 '''))
 
-#help
+
 def help():
     
     print("\n[bold]scanvul.py [-h] or [--help] to display the help command[bold]")

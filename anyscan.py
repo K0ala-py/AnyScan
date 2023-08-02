@@ -17,7 +17,7 @@ anyscan.py -i 127.0.0.1 -wp
 def help():
     
     print("\n[bold]anyscan.py [-h] or [--help] to display the help command[bold]")
-    os.system("python scanvul -h")
+    os.system("python3 anyscan.py -h")
     return ''
 
 parser.add_argument('-H','--host',type=str, help=' Enter IP or domain')

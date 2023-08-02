@@ -14,6 +14,12 @@
 ```bash
 python3 anyscan.py -H <IP>
 ```
+
+#### Help:
+```bash
+python3 anyscan.py -h
+```
+
 #### Scan with WPscan:
 ```bash
 python3 anyscan.py -H <IP> -wp

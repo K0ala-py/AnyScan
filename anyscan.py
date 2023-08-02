@@ -7,7 +7,7 @@ import textwrap
 from rich import print
 from time import sleep
 
-parser = argparse.ArgumentParser(description="ScanVUN is a beautifull script for the Vulnerability",
+parser = argparse.ArgumentParser(description="Anyscan is a beautifull script for the Vulnerability",
 formatter_class = argparse.RawDescriptionHelpFormatter,
 epilog=textwrap.dedent('''Exemption:\n
 anyscan.py -i 127.0.0.1 -wp

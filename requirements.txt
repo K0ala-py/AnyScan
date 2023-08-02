@@ -1,0 +1,4 @@
+rich
+threading
+argparse
+textwrap

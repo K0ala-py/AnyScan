@@ -1,7 +1,9 @@
 
-# AnyScan
+# AnyScan v1.1
 
-### This tool can run any default scan from an host.
+### This tool can run any default scan from an host. The tools used by default are:
+- Nmap
+- Gobuster
 
 
 
@@ -24,6 +26,17 @@ python3 anyscan.py -h
 ```bash
 python3 anyscan.py -H <IP> -wp
 ```
+
+#### Scan with Nikto:
+```bash
+python3 anyscan.py -H <IP> -n
+```
+
+#### Scan with Enum4linux (SMB service only):
+```bash
+python3 anyscan.py -H <IP> -e
+```
+
 #### Select port for Nmap:
 ```bash
 python3 anyscan.py -H <IP> -p <port>

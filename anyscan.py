@@ -59,7 +59,7 @@ def nmap(ip,port):
         os.system(f'nmap {ip} -Pn -sC -sV -p {port} > nmapSCAN')
     else:            # if PORT isn't selected...   
         from functions import AllNmapScan
-        AllNmapScan(ip)
+        AllNmapScan(ip)            # function in functins.py file, where it will speed the Nmap Scan (it'll use: -sC -sV)
     print('\n[bold bright_green]✓[/bold bright_green] Scan Nmap : [bright_green]ok[/bright_green]')
 
 # nikto function scan
